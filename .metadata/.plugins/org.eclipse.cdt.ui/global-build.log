@@ -1,0 +1,187 @@
+16:56:13 **** Clean-only build of configuration Debug for project RTOS_Ex8 ****
+make clean 
+rm -rf  ./ParTest/ParTest.o  ./FreeRTOS_Kernel/portable/MemMang/heap_3.o  ./FreeRTOS_Kernel/portable/GCC/Posix/port.o  ./FreeRTOS_Kernel/croutine.o ./FreeRTOS_Kernel/list.o ./FreeRTOS_Kernel/queue.o ./FreeRTOS_Kernel/tasks.o  ./FileIO/fileIO.o  ./Common_Demo/Minimal/GenQTest.o ./Common_Demo/Minimal/QPeek.o ./Common_Demo/Minimal/blocktim.o ./Common_Demo/Minimal/countsem.o ./Common_Demo/Minimal/crflash.o ./Common_Demo/Minimal/crhook.o ./Common_Demo/Minimal/recmutex.o  ./Common_Demo/Full/BlockQ.o ./Common_Demo/Full/PollQ.o ./Common_Demo/Full/death.o ./Common_Demo/Full/dynamic.o ./Common_Demo/Full/events.o ./Common_Demo/Full/flash.o ./Common_Demo/Full/flop.o ./Common_Demo/Full/integer.o ./Common_Demo/Full/print.o ./Common_Demo/Full/semtest.o  ./AsyncIO/AsyncIO.o ./AsyncIO/AsyncIOSerial.o ./AsyncIO/AsyncIOSocket.o ./AsyncIO/PosixMessageQueueIPC.o  ./main.o  ./ParTest/ParTest.d  ./FreeRTOS_Kernel/portable/MemMang/heap_3.d  ./FreeRTOS_Kernel/portable/GCC/Posix/port.d  ./FreeRTOS_Kernel/croutine.d ./FreeRTOS_Kernel/list.d ./FreeRTOS_Kernel/queue.d ./FreeRTOS_Kernel/tasks.d  ./FileIO/fileIO.d  ./Common_Demo/Minimal/GenQTest.d ./Common_Demo/Minimal/QPeek.d ./Common_Demo/Minimal/blocktim.d ./Common_Demo/Minimal/countsem.d ./Common_Demo/Minimal/crflash.d ./Common_Demo/Minimal/crhook.d ./Common_Demo/Minimal/recmutex.d  ./Common_Demo/Full/BlockQ.d ./Common_Demo/Full/PollQ.d ./Common_Demo/Full/death.d ./Common_Demo/Full/dynamic.d ./Common_Demo/Full/events.d ./Common_Demo/Full/flash.d ./Common_Demo/Full/flop.d ./Common_Demo/Full/integer.d ./Common_Demo/Full/print.d ./Common_Demo/Full/semtest.d  ./AsyncIO/AsyncIO.d ./AsyncIO/AsyncIOSerial.d ./AsyncIO/AsyncIOSocket.d ./AsyncIO/PosixMessageQueueIPC.d  ./main.d  FreeRTOS_Posix
+ 
+16:56:16 **** Clean-only build of configuration Debug for project RTOS_Ex8 ****
+make clean 
+rm -rf  ./ParTest/ParTest.o  ./FreeRTOS_Kernel/portable/MemMang/heap_3.o  ./FreeRTOS_Kernel/portable/GCC/Posix/port.o  ./FreeRTOS_Kernel/croutine.o ./FreeRTOS_Kernel/list.o ./FreeRTOS_Kernel/queue.o ./FreeRTOS_Kernel/tasks.o  ./FileIO/fileIO.o  ./Common_Demo/Minimal/GenQTest.o ./Common_Demo/Minimal/QPeek.o ./Common_Demo/Minimal/blocktim.o ./Common_Demo/Minimal/countsem.o ./Common_Demo/Minimal/crflash.o ./Common_Demo/Minimal/crhook.o ./Common_Demo/Minimal/recmutex.o  ./Common_Demo/Full/BlockQ.o ./Common_Demo/Full/PollQ.o ./Common_Demo/Full/death.o ./Common_Demo/Full/dynamic.o ./Common_Demo/Full/events.o ./Common_Demo/Full/flash.o ./Common_Demo/Full/flop.o ./Common_Demo/Full/integer.o ./Common_Demo/Full/print.o ./Common_Demo/Full/semtest.o  ./AsyncIO/AsyncIO.o ./AsyncIO/AsyncIOSerial.o ./AsyncIO/AsyncIOSocket.o ./AsyncIO/PosixMessageQueueIPC.o  ./main.o  ./ParTest/ParTest.d  ./FreeRTOS_Kernel/portable/MemMang/heap_3.d  ./FreeRTOS_Kernel/portable/GCC/Posix/port.d  ./FreeRTOS_Kernel/croutine.d ./FreeRTOS_Kernel/list.d ./FreeRTOS_Kernel/queue.d ./FreeRTOS_Kernel/tasks.d  ./FileIO/fileIO.d  ./Common_Demo/Minimal/GenQTest.d ./Common_Demo/Minimal/QPeek.d ./Common_Demo/Minimal/blocktim.d ./Common_Demo/Minimal/countsem.d ./Common_Demo/Minimal/crflash.d ./Common_Demo/Minimal/crhook.d ./Common_Demo/Minimal/recmutex.d  ./Common_Demo/Full/BlockQ.d ./Common_Demo/Full/PollQ.d ./Common_Demo/Full/death.d ./Common_Demo/Full/dynamic.d ./Common_Demo/Full/events.d ./Common_Demo/Full/flash.d ./Common_Demo/Full/flop.d ./Common_Demo/Full/integer.d ./Common_Demo/Full/print.d ./Common_Demo/Full/semtest.d  ./AsyncIO/AsyncIO.d ./AsyncIO/AsyncIOSerial.d ./AsyncIO/AsyncIOSocket.d ./AsyncIO/PosixMessageQueueIPC.d  ./main.d  FreeRTOS_Posix
+ 
+16:56:16 **** Build of configuration Debug for project RTOS_Ex8 ****
+make all 
+Building file: ../ParTest/ParTest.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"ParTest/ParTest.d" -MT"ParTest/ParTest.d" -o"ParTest/ParTest.o" "../ParTest/ParTest.c"
+Finished building: ../ParTest/ParTest.c
+ 
+Building file: ../FreeRTOS_Kernel/portable/MemMang/heap_3.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/portable/MemMang/heap_3.d" -MT"FreeRTOS_Kernel/portable/MemMang/heap_3.d" -o"FreeRTOS_Kernel/portable/MemMang/heap_3.o" "../FreeRTOS_Kernel/portable/MemMang/heap_3.c"
+Finished building: ../FreeRTOS_Kernel/portable/MemMang/heap_3.c
+ 
+Building file: ../FreeRTOS_Kernel/portable/GCC/Posix/port.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/portable/GCC/Posix/port.d" -MT"FreeRTOS_Kernel/portable/GCC/Posix/port.d" -o"FreeRTOS_Kernel/portable/GCC/Posix/port.o" "../FreeRTOS_Kernel/portable/GCC/Posix/port.c"
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c: In function ‘xPortStartScheduler’:
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c:204:15: warning: variable ‘xResult’ set but not used [-Wunused-but-set-variable]
+ portBASE_TYPE xResult;
+               ^~~~~~~
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c: In function ‘vPortEndScheduler’:
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c:255:15: warning: variable ‘xResult’ set but not used [-Wunused-but-set-variable]
+ portBASE_TYPE xResult;
+               ^~~~~~~
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c: In function ‘vPortForciblyEndThread’:
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c:455:15: warning: variable ‘xResult’ set but not used [-Wunused-but-set-variable]
+ portBASE_TYPE xResult;
+               ^~~~~~~
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c: In function ‘prvResumeThread’:
+../FreeRTOS_Kernel/portable/GCC/Posix/port.c:581:15: warning: variable ‘xResult’ set but not used [-Wunused-but-set-variable]
+ portBASE_TYPE xResult;
+               ^~~~~~~
+Finished building: ../FreeRTOS_Kernel/portable/GCC/Posix/port.c
+ 
+Building file: ../FreeRTOS_Kernel/croutine.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/croutine.d" -MT"FreeRTOS_Kernel/croutine.d" -o"FreeRTOS_Kernel/croutine.o" "../FreeRTOS_Kernel/croutine.c"
+Finished building: ../FreeRTOS_Kernel/croutine.c
+ 
+Building file: ../FreeRTOS_Kernel/list.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/list.d" -MT"FreeRTOS_Kernel/list.d" -o"FreeRTOS_Kernel/list.o" "../FreeRTOS_Kernel/list.c"
+Finished building: ../FreeRTOS_Kernel/list.c
+ 
+Building file: ../FreeRTOS_Kernel/queue.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/queue.d" -MT"FreeRTOS_Kernel/queue.d" -o"FreeRTOS_Kernel/queue.o" "../FreeRTOS_Kernel/queue.c"
+Finished building: ../FreeRTOS_Kernel/queue.c
+ 
+Building file: ../FreeRTOS_Kernel/tasks.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FreeRTOS_Kernel/tasks.d" -MT"FreeRTOS_Kernel/tasks.d" -o"FreeRTOS_Kernel/tasks.o" "../FreeRTOS_Kernel/tasks.c"
+Finished building: ../FreeRTOS_Kernel/tasks.c
+ 
+Building file: ../FileIO/fileIO.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"FileIO/fileIO.d" -MT"FileIO/fileIO.d" -o"FileIO/fileIO.o" "../FileIO/fileIO.c"
+Finished building: ../FileIO/fileIO.c
+ 
+Building file: ../Common_Demo/Minimal/GenQTest.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/GenQTest.d" -MT"Common_Demo/Minimal/GenQTest.d" -o"Common_Demo/Minimal/GenQTest.o" "../Common_Demo/Minimal/GenQTest.c"
+Finished building: ../Common_Demo/Minimal/GenQTest.c
+ 
+Building file: ../Common_Demo/Minimal/QPeek.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/QPeek.d" -MT"Common_Demo/Minimal/QPeek.d" -o"Common_Demo/Minimal/QPeek.o" "../Common_Demo/Minimal/QPeek.c"
+Finished building: ../Common_Demo/Minimal/QPeek.c
+ 
+Building file: ../Common_Demo/Minimal/blocktim.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/blocktim.d" -MT"Common_Demo/Minimal/blocktim.d" -o"Common_Demo/Minimal/blocktim.o" "../Common_Demo/Minimal/blocktim.c"
+Finished building: ../Common_Demo/Minimal/blocktim.c
+ 
+Building file: ../Common_Demo/Minimal/countsem.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/countsem.d" -MT"Common_Demo/Minimal/countsem.d" -o"Common_Demo/Minimal/countsem.o" "../Common_Demo/Minimal/countsem.c"
+Finished building: ../Common_Demo/Minimal/countsem.c
+ 
+Building file: ../Common_Demo/Minimal/crflash.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/crflash.d" -MT"Common_Demo/Minimal/crflash.d" -o"Common_Demo/Minimal/crflash.o" "../Common_Demo/Minimal/crflash.c"
+Finished building: ../Common_Demo/Minimal/crflash.c
+ 
+Building file: ../Common_Demo/Minimal/crhook.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/crhook.d" -MT"Common_Demo/Minimal/crhook.d" -o"Common_Demo/Minimal/crhook.o" "../Common_Demo/Minimal/crhook.c"
+Finished building: ../Common_Demo/Minimal/crhook.c
+ 
+Building file: ../Common_Demo/Minimal/recmutex.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Minimal/recmutex.d" -MT"Common_Demo/Minimal/recmutex.d" -o"Common_Demo/Minimal/recmutex.o" "../Common_Demo/Minimal/recmutex.c"
+Finished building: ../Common_Demo/Minimal/recmutex.c
+ 
+Building file: ../Common_Demo/Full/BlockQ.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/BlockQ.d" -MT"Common_Demo/Full/BlockQ.d" -o"Common_Demo/Full/BlockQ.o" "../Common_Demo/Full/BlockQ.c"
+Finished building: ../Common_Demo/Full/BlockQ.c
+ 
+Building file: ../Common_Demo/Full/PollQ.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/PollQ.d" -MT"Common_Demo/Full/PollQ.d" -o"Common_Demo/Full/PollQ.o" "../Common_Demo/Full/PollQ.c"
+Finished building: ../Common_Demo/Full/PollQ.c
+ 
+Building file: ../Common_Demo/Full/death.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/death.d" -MT"Common_Demo/Full/death.d" -o"Common_Demo/Full/death.o" "../Common_Demo/Full/death.c"
+Finished building: ../Common_Demo/Full/death.c
+ 
+Building file: ../Common_Demo/Full/dynamic.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/dynamic.d" -MT"Common_Demo/Full/dynamic.d" -o"Common_Demo/Full/dynamic.o" "../Common_Demo/Full/dynamic.c"
+Finished building: ../Common_Demo/Full/dynamic.c
+ 
+Building file: ../Common_Demo/Full/events.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/events.d" -MT"Common_Demo/Full/events.d" -o"Common_Demo/Full/events.o" "../Common_Demo/Full/events.c"
+Finished building: ../Common_Demo/Full/events.c
+ 
+Building file: ../Common_Demo/Full/flash.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/flash.d" -MT"Common_Demo/Full/flash.d" -o"Common_Demo/Full/flash.o" "../Common_Demo/Full/flash.c"
+Finished building: ../Common_Demo/Full/flash.c
+ 
+Building file: ../Common_Demo/Full/flop.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/flop.d" -MT"Common_Demo/Full/flop.d" -o"Common_Demo/Full/flop.o" "../Common_Demo/Full/flop.c"
+Finished building: ../Common_Demo/Full/flop.c
+ 
+Building file: ../Common_Demo/Full/integer.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/integer.d" -MT"Common_Demo/Full/integer.d" -o"Common_Demo/Full/integer.o" "../Common_Demo/Full/integer.c"
+Finished building: ../Common_Demo/Full/integer.c
+ 
+Building file: ../Common_Demo/Full/print.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/print.d" -MT"Common_Demo/Full/print.d" -o"Common_Demo/Full/print.o" "../Common_Demo/Full/print.c"
+Finished building: ../Common_Demo/Full/print.c
+ 
+Building file: ../Common_Demo/Full/semtest.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"Common_Demo/Full/semtest.d" -MT"Common_Demo/Full/semtest.d" -o"Common_Demo/Full/semtest.o" "../Common_Demo/Full/semtest.c"
+Finished building: ../Common_Demo/Full/semtest.c
+ 
+Building file: ../AsyncIO/AsyncIO.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"AsyncIO/AsyncIO.d" -MT"AsyncIO/AsyncIO.d" -o"AsyncIO/AsyncIO.o" "../AsyncIO/AsyncIO.c"
+Finished building: ../AsyncIO/AsyncIO.c
+ 
+Building file: ../AsyncIO/AsyncIOSerial.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"AsyncIO/AsyncIOSerial.d" -MT"AsyncIO/AsyncIOSerial.d" -o"AsyncIO/AsyncIOSerial.o" "../AsyncIO/AsyncIOSerial.c"
+Finished building: ../AsyncIO/AsyncIOSerial.c
+ 
+Building file: ../AsyncIO/AsyncIOSocket.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"AsyncIO/AsyncIOSocket.d" -MT"AsyncIO/AsyncIOSocket.d" -o"AsyncIO/AsyncIOSocket.o" "../AsyncIO/AsyncIOSocket.c"
+Finished building: ../AsyncIO/AsyncIOSocket.c
+ 
+Building file: ../AsyncIO/PosixMessageQueueIPC.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"AsyncIO/PosixMessageQueueIPC.d" -MT"AsyncIO/PosixMessageQueueIPC.d" -o"AsyncIO/PosixMessageQueueIPC.o" "../AsyncIO/PosixMessageQueueIPC.c"
+Finished building: ../AsyncIO/PosixMessageQueueIPC.c
+ 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -D__GCC_POSIX__=1 -DDEBUG_BUILD=1 -DUSE_STDIO=1 -I../Common_Demo/include -I.. -I../FreeRTOS_Kernel/include -I../FreeRTOS_Kernel/portable/GCC/Posix -O0 -g -pg -Wall -c -fmessage-length=0 -pthread -lrt -Wno-pointer-sign -MMD -MP -MF"main.d" -MT"main.d" -o"main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: FreeRTOS_Posix
+Invoking: GCC C Linker
+gcc -pthread -pg -o "FreeRTOS_Posix"  ./ParTest/ParTest.o  ./FreeRTOS_Kernel/portable/MemMang/heap_3.o  ./FreeRTOS_Kernel/portable/GCC/Posix/port.o  ./FreeRTOS_Kernel/croutine.o ./FreeRTOS_Kernel/list.o ./FreeRTOS_Kernel/queue.o ./FreeRTOS_Kernel/tasks.o  ./FileIO/fileIO.o  ./Common_Demo/Minimal/GenQTest.o ./Common_Demo/Minimal/QPeek.o ./Common_Demo/Minimal/blocktim.o ./Common_Demo/Minimal/countsem.o ./Common_Demo/Minimal/crflash.o ./Common_Demo/Minimal/crhook.o ./Common_Demo/Minimal/recmutex.o  ./Common_Demo/Full/BlockQ.o ./Common_Demo/Full/PollQ.o ./Common_Demo/Full/death.o ./Common_Demo/Full/dynamic.o ./Common_Demo/Full/events.o ./Common_Demo/Full/flash.o ./Common_Demo/Full/flop.o ./Common_Demo/Full/integer.o ./Common_Demo/Full/print.o ./Common_Demo/Full/semtest.o  ./AsyncIO/AsyncIO.o ./AsyncIO/AsyncIOSerial.o ./AsyncIO/AsyncIOSocket.o ./AsyncIO/PosixMessageQueueIPC.o  ./main.o    -lrt
+Finished building target: FreeRTOS_Posix
+ 
+16:58:24 **** Build of configuration Debug for project RTOS_Ex8 ****
+make all 
+make: Nothing to be done for 'all'.
+16:58:31 **** Incremental Build of configuration Debug for project RTOS_Ex8 ****
+make all 
+make: Nothing to be done for 'all'.
